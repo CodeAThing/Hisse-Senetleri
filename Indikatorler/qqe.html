@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body
+    {
+        font-size: 29px;
+    }
+    #turuncu
+    {
+        color: orange;
+    }
+    #red
+    {
+        color: rgb(231, 5, 5);
+        text-transform:uppercase;
+    }
+</style>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQE</title>
+</head>
+<body>
+    <a href="../index.html">Ana Sayfa</a>
+    <h1 class="kalin">QQE Kullanımı ve Tiyoları </h1>
+
+    <span>  <h4>Başlarken;</h4>
+        <br>
+        
+        Grafiği mouse tekerliği yardımıyla zoom out yapalım. QQE'nin fitil çizgisinin gördüğü max ve min yerlere birer horizontal ray(yatay ışın) koyalım
+        <br>
+        <img src="../images/qqess1.PNG" alt="QQESS1" width="70%" height="70%">
+    
+     <br>   Burada gözüken  <span id="turuncu">turuncu</span>  çizgi '0' çizgisi, üstteki çizgi maximum ve alttaki görünen minimum çizgisidir.
+
+     <br>Burada yükselişin boyutunu belirleyen şey, kolonların boyuturdur!
+
+     <br>
+
+     <h3 class="onemli">1)Fitil çizgisi ile turuncu '0' çizgisi</h3>
+     <br>
+     Fitil, turuncu çizgiyi  aşağıdan gelip yukarı  keserse bu bir alım sinyalidir. Aynı şekilde yukarıdan gelip aşağıya keserse satış sinyalidir. 
+
+     <h3 class="onemli">2)Yükselişte, kolonlar fitillerden daha yüksekse yükseliş başlayacak- devam edecek demektir. Tersi de mümkündür</h3>
+
+     <h3 class="onemli">3)Gri barlar, alıcı satıcının denk olduğunu belirtir.</h3>
+
+     
+     <h2 id="red">!!! QQE'nin fİtİlİ, turuncuyu yani sıfır çizgisini aşağı yönlü kesmedikçe satış yapılmamalıdır. Yani fitilin aşağı yöne dönmesi, sıfır çizgisini kesmediği sürece satış demek değildir!       </h2>    
+   <br>
+     <h2 id="red">Diyelim ki fitil, fiyatı aşağı yönlü kesti fakat gri sütun var yada hiç sütun yok. Burada pozisyon kapatmamak gerekir. Yada tam tersi, fiyat yukarı yönlü turuncuyu kesti fakat fitiller gri yada yok. Pozisyon atmamak gerekir.</h2>
+    </span>
+</body>
+</html>
