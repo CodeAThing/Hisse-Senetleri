@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <style>
+        body    
+         {
+            font-size:24px;
+            font-weight: bold;
+            background-color: antiquewhite;
+            color:#0D4C92;
+
+         }
+         h1{
+font-size:36px;
+color:turquoise;
+margin-left:50%;
+         }
+         .output
+         {
+            font-size:32px;
+            color:crimson
+         }
+
+         #a
+         {
+            margin-left:180px;
+            margin-top:-80px;
+         }
+         .example
+         {
+            color: blue;
+         }
+         #resimyani
+         {
+         margin-top:500px;
+            margin-left:600px;
+            color: purple;
+         }
+     h1
+     {
+      margin-left:40px;
+     }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Notlar</title>
+</head>
+<body>
+    <a href="kullanmakilavuzu.html  ">Site Kullanma Kılavuzu (For developers) </a>
+<h1 class="sola">Week1</h1> 
+    
+    <br>
+    System.out.print-->  Aynı Satırla Yazdırma
+    <br>
+    System.out.println-->Alt Satıra Geçer<br>
+    System.out.printf--> String İfadeler İçin<br>
+   System.out.printd-->  Decimal İfadeler İçin<br>
+   System.out.printt-->  Time ve Date İfadeleri İçin 
+   <p>
+    /n--> Yazıldığı zaman ondan sonrakini alt satırdan başlatır.
+    <br>
+    <span class="example">
+        System.out.printf("Nasılsın?");
+        System.out.printf("\n Selam canım");
+<br><br>
+        The Output is : <div class="output" id="a"> Nasılsın <br> Selam Canım</div>
+    </span>
+    <br>
+    /t--> tab tuşudur, bir boşluk bırakır. <br>
+    %d--> integer değer yazdırılırken<br> 
+    %s <br> string değer yazdırılırken
+    %f <br> float değer yazdırılırken galiba
+    <br>
+<br>
+    <div class="example">
+      Örneğin;  <br> mt1=45,mt2=67,finalexam=82,result;
+<br>
+      result=(mt1*3/10)+(mt2*3/10)+(finalexam*4/10);<br>
+      System.out.println(result); ==>Output :<div class="output">65</div><br>
+
+      System.out.printf("%d",result); ==>Output :<div class="output">65</div>
+
+      <br>
+      Yukarıda yazılanı println ile yazmak kolay <br>fakat printf ile yazmak biraz daha komplike.
+   <br>
+   Printf ile yazarken önce tırnak içinde <br>
+   yüzde d olarak belirttik,  sonra <br>virgül koyup değeri yazdık.
+
+   <br>
+   result=65; <br>
+   String selam="selamnaber cancan";<br>
+        System.out.printf("%s",selam);<br>
+         System.out.printf("%s %d ",selam, result);
+    </div><br>
+<div class="example">
+   double resultdouble=78.5; <br>
+   System.out.printf("%.2f",resultdouble); ==>.2f yazarak virgülden sadece 2 sonrasına kadar olan değerleri ekrana yazdırdık.
+
+</div>
+   </p>
+<br>
+   <p>
+    Değerleri birbiriyle değiştirmeye çalışalım;
+    <br>
+
+    int a=55,b=66,c=77,d=88,e;
+    <br>
+e=a;
+a=d;
+d=e;<br>
+        System.out.println(a);<br>
+        System.out.println(b);<br>
+        System.out.println(c);<br>
+        System.out.println(d);<br>
+<br>
+<div class="example" style="color:rgb(25, 139, 82)" >Şimdi de Kullanıcıdan Değer Alalım!
+<br>
+
+Önce kütüphaneyi ekle : <br>import java.util.Scanner;
+<br>
+Sonra da : Scanner s =new Scanner(System.in);
+</div>
+
+   </p>
+
+   <div>
+      Sağdan ve Soldan --/++ farkları:
+<br>
+      <img src="images/sagdansoldanartieksi.PNG" alt="artieksi">
+      
+
+   </div>
+   <div class="example">The Output is :</div>
+   <div class="output">a değeri=5	b değeri=13 <br>
+      c değeri=6	a değeri=6 <br>
+      c değeri=7	a değeri=6 <br> 
+      b değeri=5	d değeri=4</div>
+
+     <h2 style="color:rgb(19, 172, 31)">Yer Değiştirmeler</h2>
+     2 tür yer değiştirme anlatıldı bize.
+     <h3 style="color:rgb(14, 84, 177)">1)</h3>
+
+     <div class="example">integer a ve b  değerleri tanımladık
+      <br>
+      a ve b'nin yerlerini değiştirmemiz icap ediyor. <br>
+      
+      int a,b;<br>
+      System.out.print("a:" + a);
+      System.out.print("b:" + b);
+      a=s.nextInt();<br>
+      b=s.nextInt();<br>
+      a=a+b;<br>
+      b=a-b;<br>
+      a=a-b; <br>
+      <div class="output">
+         a=12,b=24 için, <br> 
+         a=24 <br>
+         b=12 olur <br>
+      </div>
+     </div>
+     <h1>Week 2</h1>
+
+</body>
+</html>
